@@ -7,6 +7,7 @@ class TYPECASTING
     public static void main(String[] args) {
         int i=10;
         double j = i*10;
+        
         System.out.println( ( (Object) i) .getClass().getSimpleName() );
         System.out.println( ( (Object) j) .getClass().getSimpleName() );
 
