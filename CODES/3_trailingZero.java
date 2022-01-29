@@ -7,7 +7,12 @@ class trailingZero
         short count=0;
         while(trailingNo!=0)
         {
-            if(trailingNo%2==0 && trailingNo%5==0)
+            // if(trailingNo%2==0 && trailingNo%5==0)
+            // {
+            //     count++;
+            //     trailingNo/=10;
+            // }
+            if(trailingNo%10 == 0)
             {
                 count++;
                 trailingNo/=10;

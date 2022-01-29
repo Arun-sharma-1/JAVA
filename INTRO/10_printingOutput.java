@@ -27,7 +27,9 @@ class Output {
         System.out.printf("arun");
 
 
-
+        // UNICODES 
+        int code ='A';
+        System.out.println(code);
 
     }
 }
