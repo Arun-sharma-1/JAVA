@@ -1,5 +1,5 @@
 import java.util.*;
-
+/*
 //selection sort -> we find the correct element for the positons 
 class selection {
 
@@ -56,7 +56,7 @@ class SortMethods {
         int N = sc.nextInt();
         arr = new int[N];
         for (int i = 0; i < N; i++) {
-            arr[i] = sc.nextInt();
+            arr[i] = sc.nextInt(); 
         }
         // algo for sorting array -> selection sort =>finding correct pson of ele
         insertion_sort(arr, N);
@@ -65,3 +65,33 @@ class SortMethods {
         sc.close();
     }
 }
+
+*/
+class Main  {
+     
+    public static void main(String[] args) {
+        marks m = new marks(1,"abc",100);
+        System.out.println(m.id);
+
+
+    }
+}
+class Test {
+    int id;
+    String name;
+    Test(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+}
+class marks extends Test
+{
+    int marks;
+    marks(int id , String name , int m) {
+        super(id , name);
+        marks=m;
+        System.out.println(super.name);
+    }
+}
+
+ 
