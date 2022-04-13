@@ -1,12 +1,14 @@
 package Exceptions;
 
-public class stackoverflow {
+class stackoverflowExample {
     public static void main(String[] args) {
-        someMethod();
+        stackoverflowExample obj = new stackoverflowExample();
+
+       obj.someMethod();
 
     }
 
-    static void someMethod() {
+    void someMethod() {
         try {
             int i = 1;
             System.out.println(i);
